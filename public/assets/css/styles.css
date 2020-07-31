@@ -35,7 +35,7 @@ html, body {
 }
 
 .note-title:read-only, .note-textarea:read-only {
-  color: #757575;
+  color: gainsboro;
 }
 
 .list-container .card {
@@ -43,10 +43,12 @@ html, body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  color: grey;
 }
 
 .list-container {
   padding-left: 0;
+  color: grey;
 }
 
 .list-container .list-group,
@@ -55,11 +57,13 @@ html, body {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+  color: grey;
 }
 
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
+  color: grey;
 }
 
 .list-container .list-group-item {
@@ -67,4 +71,5 @@ html, body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+  color: grey;
 }

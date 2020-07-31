@@ -24,7 +24,7 @@ app.get("/api/notes/:id", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(mainDir, "index.html"));
+    res.sendFile(path.join(mainDirectory, "index.html"));
 });
 
 app.post("/api/notes", (req, res) => {
